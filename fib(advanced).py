@@ -15,3 +15,19 @@
 #That is roughly 1125899906842624 steps for the computer
 # so this classic implementation only works for small NUmbers.
 
+
+
+# This is the efficient code for fibbonacci series :
+# saving the precalculated roots in memo and using it.
+
+def func(n,memo = {}):
+    if n in memo:
+        return memo[n] 
+    if n <= 2:
+        return 1
+    else:
+        memo[n] =  func(n-2,memo) + func(n-1,memo)
+    return memo[n]
+
+
+print(func(int(input("Input the number: "))))
