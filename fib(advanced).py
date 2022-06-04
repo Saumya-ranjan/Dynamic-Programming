@@ -20,7 +20,7 @@
 # This is the efficient code for fibbonacci series :
 # saving the precalculated roots in memo and using it.
 
-def func(n,memo = {}):
+def func(n,memo = {}):   #Time complexity: o(n)
     if n in memo:
         return memo[n] 
     if n <= 2:
@@ -31,3 +31,6 @@ def func(n,memo = {}):
 
 
 print(func(int(input("Input the number: "))))
+ 
+ # we bring it down from exponential time complexity to linear 
+ # time complexity o(n) 
