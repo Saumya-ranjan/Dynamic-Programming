@@ -1,0 +1,12 @@
+we gonna get all the efficient code in One pass not like memoization
+
+1] Visualize the Problem In Table
+2] Size the table as per Input
+3] Initialize the table with default values 
+    (True or False) --> For Boolean
+    (0's or Numbers) --> For Continious Output
+4] seed the trivial answer in table 
+    (As in Fibonnaci Series --> dp[1] = 1 )
+    (As in Grid Traveller --> dp[1][1] = 1)
+5] Iterate through table 
+6] fill further position based on current Position

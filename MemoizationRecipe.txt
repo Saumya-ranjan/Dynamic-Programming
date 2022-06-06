@@ -1,0 +1,8 @@
+1. Make It work 
+    a) visualize the problem as tree 
+    b) implement the tree using recursion 
+    c) test it (Brute Force recursion) 
+2. Make It efficient 
+    a) add a memo object 
+    b) add a base case to return memo values 
+    c) store return valuesinto memo
